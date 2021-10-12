@@ -1,0 +1,175 @@
+.portfolio-main {
+  margin-top: 140px;
+  margin-bottom: 150px;
+}
+.portfolio-headline {
+  position: relative;
+  padding-bottom: 60px;
+  width: 265px;
+  margin: 0 auto;
+}
+.portfolio-small-green {
+  position: absolute;
+  width: 71px;
+  height: 23px;
+  background: #7beec7;
+  margin-left: 0px;
+  margin-top: 7px;
+  z-index: 9;
+}
+.portfolio-headline-text {
+  position: absolute;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #60606e;
+  font-family: 'montserratbold';
+  text-transform: uppercase;
+  font-size: 30px;
+  z-index: 99;
+}
+.portfolio-description {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 130px;
+  width: 770px;
+  font-size: 14px;
+  font-family: 'open_sansregular';
+  color: #60606e;
+}
+.portfolio-left-headline {
+  margin-bottom: 50px;
+  display: block;
+  font-family: 'montserratbold';
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 30px;
+  line-height: 45px;
+  color: #60606e;
+}
+.portfolio-left-menu {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.portfolio-left-menu-headline {
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'montserratbold';
+  background: #7beec7;
+  font-size: 14px;
+  width: 60px;
+  color: #fff;
+}
+.portfolio-left-menu-item {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.portfolio-left-menu-item-a {
+  padding: 5px;
+  width: 170px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 20px;
+  font-family: 'montserratbold';
+  color: #60606e;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.portfolio-left-menu-item-a:hover {
+  background: #7beec7;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+.gallery-container {
+  padding-right: 0px;
+}
+.gallery-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  /* gutter size offset */
+  width: auto;
+}
+.gallery-column {
+  padding-left: 30px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+/* Style your items */
+.gallery-column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.gallery-item-1 {
+  width: 262px;
+  height: 171px;
+  background-image: url('../img/gallery-1.png');
+  background-size: cover;
+}
+.gallery-item-2 {
+  width: 263px;
+  height: 175px;
+  background-image: url('../img/gallery-2.png');
+  background-size: cover;
+}
+.gallery-item-3 {
+  width: 260px;
+  height: 390px;
+  background-image: url('../img/gallery-3.png');
+  background-size: cover;
+}
+.gallery-item-4 {
+  width: 264px;
+  height: 264px;
+  background-image: url('../img/gallery-4.png');
+  background-size: cover;
+}
+.gallery-item-5 {
+  width: 264px;
+  height: 396px;
+  background-image: url('../img/gallery-5.png');
+  background-size: cover;
+}
+.gallery-item-6 {
+  width: 261px;
+  height: 149px;
+  background-image: url('../img/gallery-6.png');
+  background-size: cover;
+}
+.gallery-item-7 {
+  width: 263px;
+  height: 394px;
+  background-image: url('../img/gallery-7.png');
+  background-size: cover;
+}
+.gallery-item-8 {
+  width: 263px;
+  height: 263px;
+  background-image: url('../img/gallery-8.png');
+  background-size: cover;
+}
+.gallery-item-9 {
+  width: 261px;
+  height: 150px;
+  background-image: url('../img/gallery-9.png');
+  background-size: cover;
+}
+.gallery-item {
+  z-index: 10;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.gallery-item:hover {
+  z-index: 999;
+  -webkit-transform: scale(1.3) translateY(60px);
+          transform: scale(1.3) translateY(60px);
+}

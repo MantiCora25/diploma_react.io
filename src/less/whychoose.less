@@ -1,0 +1,114 @@
+@grey : #60606e;
+@green : #7beec7;
+@montserrat : 'montserratbold';
+@opensans : 'open_sansregular';
+
+.why-choose-main{
+    //padding-bottom: 150px;
+    margin-top: 140px;
+}
+.why-choose-headline{
+    position: relative;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    width: 275px;
+}
+.why-choose-small-green{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    background: #7beec7;
+    margin-left: 0px;
+    margin-top: 7px;
+    z-index: 9;
+}
+.why-choose-headline-text {
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #60606e;
+    font-family: 'montserratbold';
+    text-transform: uppercase;
+    font-size: 30px;
+    z-index: 99;
+}
+.why-choose-description{
+    display: block;
+    margin: 0 auto;
+    width: 720px;
+    font-size: 14px;
+    font-family: @opensans;
+    color: @grey;
+}
+.why-choose-content{
+    margin-top: 100px;
+}
+.left-column-block-item{
+    padding: 0px;
+}
+.block-item-3, .block-item-4{
+    margin-top: 30px;
+}
+.block-item-2, .block-item-4 {
+    padding-left: 35px;
+}
+.left-top-img-1{
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/infinity.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.left-top-img-2{
+    .left-top-img-1;
+    background-image: url('../img/shuffle.PNG');
+}
+.left-top-img-3{
+    .left-top-img-1;
+    background-image: url('../img/cart.PNG');
+    height: 45px;
+}
+.left-top-img-4{
+    .left-top-img-1;
+    background-image: url('../img/mixer.PNG');
+}
+.left-column-menu{
+    padding-left: 0;
+    font-family: @montserrat;
+    font-size: 18px;
+    color: @grey;
+    text-transform: uppercase;
+    text-align: left;
+        li{
+            display: block;
+            font-family: @opensans;
+            font-size: 14px;
+            
+            margin-top: 20px;
+                a{
+                    color: #999999;
+                    transition: 0.4s;
+                        &:hover{
+                            text-decoration: none;
+                            color: @green;
+                        }
+                }
+        }
+}
+.left-column-menu :nth-child(1) {
+    margin-top: 30px;
+}
+.why-choose-right-column{
+    padding-right: 0px;
+    padding-left: 85px;
+    padding-top: 5px;
+}
+.why-choose-right-column-img{
+    width: 485px;
+    height: 530px;
+    background-image: url('../img/why-choose-right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

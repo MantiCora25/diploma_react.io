@@ -1,0 +1,90 @@
+.contact-us-main {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #7beec7;
+}
+.contact-us-left-text {
+  display: block;
+  font-family: 'montserratbold';
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  line-height: 45px;
+}
+.contact-us-left-button {
+  display: block;
+  margin-left: 0px;
+  margin-top: 30px;
+  width: 165px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fff;
+  font-family: 'montserratbold';
+  color: #7beec7;
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.contact-us-left-button:hover {
+  color: #7beec7;
+  background: #60606e;
+  text-decoration: none;
+}
+.contact-us-right-white {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 27px;
+  padding-left: 27px;
+  background: #fff;
+}
+.contact-us-right-headline {
+  display: block;
+  font-family: 'montserratbold';
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #60606e;
+  text-align: left;
+}
+.contact-us-right-text {
+  font-size: 16px;
+  font-family: 'open_sansregular';
+  color: #999999;
+}
+.right-input {
+  padding: 0px;
+}
+.right-button {
+  padding: 0px;
+}
+.contact-us-right-input {
+  width: 100%;
+  border: 2px solid #e5e5e5;
+  padding: 20px;
+  outline: none;
+  font-family: 'montserratbold';
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.contact-us-right-button {
+  width: 100%;
+  border: 2px solid #7beec7;
+  background: #7beec7;
+  color: #fff;
+  font-family: 'montserratbold';
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 18px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.contact-us-right-button:focus {
+  outline: none;
+}
+.contact-us-right-button:hover {
+  color: #7beec7;
+  background: #60606e;
+  border: 2px solid #60606e;
+}
